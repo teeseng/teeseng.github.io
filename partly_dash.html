@@ -1,0 +1,81 @@
+<!-- I hate wordpress -->
+<div id="drawing" style = "background-color: #5575bc; width: 10%; height: 100%; margin-bottom:8px; float: left;">
+  <?xml version="1.0" encoding="UTF-8"?>
+            <svg class="drawing" width="84px" height="472px" viewBox="0 0 84 472" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(80,40)">
+                
+                <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+                <title> SVG Sample </title>
+                <desc> Created with Sketch. </desc>
+                <defs> </defs>
+                <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Visitor-Guide" transform="translate(-499.000000, -830.000000)">
+                <g id="Group-3" transform="translate(501.000000, 826.000000)">
+                <circle id="Oval-2" stroke="#F9F9FF" stroke-width="3" cx="20" cy="78" r="20"></circle>
+                <circle id="Oval-2-Copy" stroke="#F9F9FF" stroke-width="3" cx="60" cy="233" r="20"></circle>
+                <circle id="Oval-2-Copy-2" stroke="#F9F9FF" stroke-width="3" cx="40" cy="397" r="20"></circle>
+                <text id="1" font-family="Lato, Quicksand-Bold, Quicksand" font-size="18" font-weight="bold" fill="#F9F9FF">
+                    <tspan x="14" y="84"> 1 </tspan>
+                </text>
+                <text id="2" font-family="Lato, Quicksand-Bold, Quicksand" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="55" y="240"> 2 </tspan>
+                </text>
+                <text id="3" font-family="Lato, Quicksand-Bold, Quicksand" font-size="18" font-weight="bold" fill="#FFFFFF">
+                    <tspan x="35" y="404"> 3 </tspan>
+                </text>
+                <path id="path1" d="M18.2954281,58 C14.4425635,50.6445125 15.4399594,42.4898876 21.2876156,33.5361253 C30.0591,20.1054818 30.1352719,11.4222676 28.5024594,0" id="Path-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-dasharray="11,11"></path>
+                <path id = "path4" d="M29.2954281,474.363281 C25.4425635,467.088542 26.4399594,459.023438 32.2876156,450.167969 C41.0591,436.884766 41.1352719,428.296875 39.5024594,417" id="Path-2-Copy" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-dasharray="11"></path> 
+                <path id= "path2" d="M24.6007187,98.0532227 C20.8243515,131.765833 4.94238281,126.178358 17.2089844,155.293213 C29.4755859,184.408067 69.3851212,175.257593 55.5244141,212.533203" id="Path-3" stroke="#F9F9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8"></path>    
+                <path id = "path3" d="M38.6951571,253 C48.9846336,256.429854 54.7859474,266.940725 56.0990984,284.532612 C58.068825,310.920442 32.1283953,318.515301 34.1078875,343.848845 C35.4275489,360.737875 44.5920997,371.61492 61.6015398,376.47998" id="Path-3-Copy" stroke="#F9F9FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8" transform="translate(47.800770, 314.739990) scale(-1, 1) rotate(-180.000000) translate(-47.800770, -314.739990) "></path>
+				
+                </g>
+                </g>
+                </g>	
+            </svg>
+</div>
+
+<script>
+var draw = document.getElementById('drawing');
+
+window.addEventListener("scroll", animatorFunction);
+
+function animatorFunction() {
+		var scrollpercent = (document.body.scrollTop +			document.documentElement.scrollTop)/(document.documentElement.scrollHeight - document.documentElement.clientHeight);
+  
+		console.log(scrollpercent);
+		var circle1 = document.getElementById('Oval-2');
+		var num1 = document.getElementById('1');
+        var circle2 = document.getElementById('Oval-2-Copy');
+        var num2 = document.getElementById('2');
+        var circle3 = document.getElementById('Oval-2-Copy-2');
+        var num3 = document.getElementById('3');
+ 
+    
+    if(scrollpercent > 0.16) {
+        circle1.setAttribute("fill", '#FFFFFF');
+        num1.setAttribute("fill", "#5575bc");
+    }
+    if(scrollpercent < 0.16) {
+    		circle1.setAttribute("fill", '#5575bc');
+        num1.setAttribute("fill", "#FFFFFF");
+    }
+    
+    if(scrollpercent > 0.24) {
+        circle2.setAttribute("fill", '#FFFFFF');
+        num2.setAttribute("fill", "#5575bc");
+    }
+    if(scrollpercent < 0.24) {
+    	circle2.setAttribute("fill", '#5575bc');
+        num2.setAttribute("fill", "#FFFFFF");
+    }
+		
+	if(scrollpercent > 0.31) {
+        circle3.setAttribute("fill", '#FFFFFF');
+        num3.setAttribute("fill", "#5575bc");
+    }
+    if(scrollpercent < 0.31) {
+    	circle3.setAttribute("fill", '#5575bc');
+        num3.setAttribute("fill", "#FFFFFF");
+    }	
+}
+
+</script>
