@@ -8,7 +8,7 @@
     
     
         <!-- I hate wordpress -->
-    <div id="drawing" style = "background-color: #5575bc; width: 30%; height: 180%; margin-bottom:35%; float: left; ">
+    <div id="drawing" style = "background-color: #5575bc; width: 30%; height: 500px; margin-bottom:20%; float: left; ">
     <?xml version="1.0" encoding="UTF-8"?>
         <svg class="drawing" width="84px" height="472px" viewBox="0 0 84 472" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" transform="translate(80,40)">
                 
@@ -76,8 +76,8 @@ function animatorFunction() {
         }
        if(scrollpercent > 0.216) {
               path2.setAttribute('stroke', '#ffffff');
-	      var pathLen2 = path2.getTotalLength();
-    	      var adjustedLen2 = (scrollpercent - 0.216) * pathLen2 * 12;
+    	      var pathLen2 = path2.getTotalLength();
+    	      var adjustedLen2 = (scrollpercent - 0.216) * pathLen2 * 15;
     	      path2.setAttribute('stroke-dasharray', adjustedLen2 + ' ' + pathLen2);
         }
         if(scrollpercent > 0.31) {
