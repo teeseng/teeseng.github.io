@@ -1,29 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
-p {
-    color: #fcfcfc;
+div {
     font-family: Lato;
-    font-size: 22px;
+    font-size: 19px;
     padding: 5 5 5 5;
-    margin-top: 4%;
-    bottom: 3;
-    text-align: center;
+    color: #5575bc;
+    margin-top: 15%;
+    margin-left: 10%;
+    text-align: left;
+    vertical-align: middle;
+}
+
+div h1 {
+    font-size: 26px;
 }
 
 a {
     text-decoration: none;
-    color: #ffffff;
-    background-color: #5575bc;
+    color: #f4425c;
 }
 
 a:hover {
     text-decoration: none;
     color: rgb(255, 87,80);
 }
-
-a:visited {
-    text-decoration: none;
-    color: rgb(0,0,0);
-}
-
 
