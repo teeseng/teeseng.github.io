@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 p {
-    color: #5575bc;
+    color: #fcfcfc;
     font-family: Lato;
     font-size: 22px;
     padding: 5 5 5 5;
@@ -12,7 +12,8 @@ p {
 
 a {
     text-decoration: none;
-    color: #5575bc;
+    color: #ffffff;
+    background-color: #5575bc;
 }
 
 a:hover {
