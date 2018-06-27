@@ -1,12 +1,15 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 div {
     font-family: Lato;
     font-size: 19px;
-    padding: 5 5 5 5;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
     color: #5575bc;
-    margin-top: 15%;
-    margin-left: 10%;
     text-align: left;
     vertical-align: middle;
 }
@@ -17,11 +20,10 @@ div h1 {
 
 a {
     text-decoration: none;
-    color: #E6E6FA;
+    color: #f44242;
 }
 
 a:hover {
     text-decoration: none;
-    color: #E6E6FA;
+    color: #2b2d30;
 }
-
