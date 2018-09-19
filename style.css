@@ -1,29 +1,36 @@
 
+body {
+    background-color: #353638; 
+    font-family: 'Lato';
+}
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-
-div {
-    font-family: Lato;
+div { 
+    font-family: Lato; 
+    font-weight: Bold;
     font-size: 19px;
     margin-top: 5%;
     margin-left: 5%;
     margin-bottom: 5%;
     margin-right: 5%;
-    color: #5575bc;
+    color: #FFFFFF;
+    background-color: #353638;
     text-align: left;
     vertical-align: middle;
 }
 
 div h1 {
-    font-size: 26px;
+    font-size: 31px;
+    font-family: Lato; 
+    font-weight: Bolder;
+    word-spacing: 0.25em;
 }
 
 a {
     text-decoration: none;
-    color: #f44242;
+    color: #e04e3e;
 }
 
 a:hover {
     text-decoration: none;
-    color: #2b2d30;
+    color: #FFFFFF;
 }
