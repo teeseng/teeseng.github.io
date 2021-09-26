@@ -1,0 +1,91 @@
+
+% Template from Trey Hunner
+
+
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.6in,top=0.4in,right=0.6in,bottom=0.2in]{geometry} % Document margins
+\usepackage{lato}
+\usepackage{color}
+\newcommand\tab[1][0.80cm]{\hspace*{#1}}
+\normalfont
+
+\name{\Huge Andrew \ Tseng} % Your name
+\address{andydomokun@gmail.com \ \ 832-520-0969  \  \ } % Your address
+
+\begin{document}
+
+%	EDUCATION SECTION
+\begin{rSection}{\large Education}
+{\bf University of Texas at Austin} \hfill {\bf Graduation Date: December 2018} \\
+\/ Bachelor of Science in Computer Science, GPA: 3.2
+
+\end{rSection}
+
+%	WORK EXPERIENCE SECTION
+\begin{rSection}{\large Work Experience}
+
+\begin{rSubsection}{Kershner Trading Group - Software Engineer}{February 2019 - Present}{}{}
+\item Improved the Locate Borrow application by removing C\# dependencies within the C++/CLR application. Added features in application UI to provide visual TCP socket statuses for DevOps staff.
+\item Developed server to handle orders for new clients and translates FIX 4.2 messages to an internal message.
+\item Developed test client to test fix server that takes in FIX 4.2 messages to pipeline in to order handling system.
+\item Ported code from windows to Linux to fit new feed servers/hardware lead to improve latency in handling orders.
+\item Built internal tools to monitor system of order management system and found 21 inter-application bugs.
+\item Designed and developed backend feature of recycling shares within trader accounts for to use throughout trading day. 
+\end{rSubsection}
+
+\begin{rSubsection}{Vast.com - Software Engineer Intern}{Summer, 2017}{}{}
+\item Worked with a team of 5 other interns in developing a side product for Vast.com
+\item Utilized Vast.com's Carstory data to make a webpage to list out car 
+    information for a used car pop-up.
+\item Worked with other UX designers in designing posters/online ads to promote
+    the car pop-up product.
+\end{rSubsection}
+
+\begin{rSubsection}{Compal Electronics - Software Engineer Intern}{Summer, 2016}{}{}
+\item Rewrote developer admin database pages into templates and added management features.
+\item Developed sanity tests to help with continuous integration to help find bugs in the in-house API.
+\item Debugged and refactored MongoDB schema for new category of data in database. 
+\item Researched IoT concepts/protocols for R\&D for potential uses on new products.
+\end{rSubsection}
+
+\begin{rSubsection}{University of Texas at Austin}{Spring 2016, 2017}{}{}
+\item Led discussion sections that reviewed topics of the weekly lectures.
+\item Helped grade weekly homework and developed homework and midterm/final problems.
+\end{rSubsection}
+
+\end{rSection}
+
+% PROJECT SECTION
+\begin{rSection}{\large Projects}
+\begin{rSubsection}{Type Inference System in C}{{}}{}{}
+     \item Implemented type inference features in C with the \textbf{auto} keyword.
+     \item Created symbol table and file rewrite in replacing auto keyword to correct type.
+     \item Rewrites the auto keyword to the type that it infers based on the C-program.
+     \item Wrote test scripts in Bash to make find corner cases along with string parser that finds lexes within the input program.
+\end{rSubsection}
+\begin{rSubsection}{Linux Kernel}{}{}{}
+     \item Developed Linux kernel in C++ featuring threads, concurrency tools, virtual memory, file systems and system calls. 
+     \item Designed threading system in intention to prevent deadlocking and manage re-entrant functions.
+     \item To avoid baggage that C++ brings, avoided using C++ STL throughout development.
+\end{rSubsection}
+\begin{rSubsection}{Lilypond - Facebook Messenger Bot}{}{}{}
+     \item Facebook Messenger bot that converts textual music notes into a music sheet.
+    \item Utilized ImageMagick, C++, NodeJS to convert and parse text and create
+    music sheet PNG file. 
+\end{rSubsection}
+\end{rSection}
+
+% SKILLS SECTION
+\begin{rSection}{\large Languages and Tools}
+    \textbf{Experience} : Python $\vert$ Java $\vert$ C/ C++ $\vert$ Visual Studio  $\vert$ *nix $\vert$ Git\\
+    \textbf{Familiar} : MySQL $\vert$ R $\vert$ MATLAB $\vert$
+    Verilog $\vert$  \LaTeX  $\vert$  Docker  $\vert$ Google Cloud Platform $\vert$ Javascript/React $\vert$ Jenkins $\vert$ Anaconda $\vert$ Microsoft SQL MS 
+\end{rSection}      
+
+% job description text block to game resume
+
+
+\end{document}
+\grid
