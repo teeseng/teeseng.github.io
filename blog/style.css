@@ -1,0 +1,34 @@
+
+body {
+    background-color: #CFC2E9;
+    font-family: Lato; 
+}
+
+div { 
+    font-weight: Regular;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 15%;
+    margin-right: 5%;
+    color: #282828;
+    text-align: left;
+    vertical-align: center;
+}
+
+div h1 {
+    font-size: 45px;
+    font-weight: Bold;
+    word-spacing: 0.25em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #282828;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #5575bc;
+}
