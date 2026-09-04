@@ -20,6 +20,11 @@ div h1 {
     font-size: 45px;
     font-weight: Bold;
     word-spacing: 0.25em;
+    text-align: right;
+}
+
+div p {
+    text-align: left;
 }
 
 a {
