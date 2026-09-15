@@ -1,0 +1,55 @@
+
+[DRAFT]
+
+written on 2026/09/13, Sunday 10:17 AM PST
+
+
+Recently I left Microsoft after a little less than 5 years.
+I joined the company during the tail end of 2021 and amidst the first wave of the pandemic.
+After reflecting for over a month since my departure, I have solidified some 
+thoughts on my experiences there and will share this here.
+
+Overall my team was very good and stable. Everyone was friendly and my manager
+set expectations pretty clearly. This manager at the time will be named manager Alpha.
+Alpha was a proactive manager that did a good job helping me when I needed it.
+Quickly we built a good working relationship that encompassed of getting medium to
+large sized tasks done well before deadlines. In cases where deadlines were at-risk,
+Alpha quickly taught me how to interact with product managers and going through
+the process of setting expectations and such. 
+
+I learned quite a bit from Alpha as they have been at Microsoft for about 15 years.
+The limitless domian knowledge allowed me to leverage this thoughts on certain 
+design of features and systems within the product that we were working on. 
+Throughout this time, I was also the designated SME for the build system of the
+Win32 application. This continued to the end of my time at Microsoft.
+
+While I was the build SME for my team, the team would struggle with some problems
+in getting the application build throughout the years. Sometimes when there would be
+a change to the build system that lead to build issues that would block developers.
+Most of the fixes for these issues were short term. I implemented all sorts of 
+different fixes to unblock developers and get everyone back to working on needed
+features or bugs. 
+
+Towards the end of 2024, Alpha moved out of the country and I began to lose 
+some passion towards the product and project. My performance was still quite good,
+but I started questioning my place in the company. This was mostly due to the 
+perpetual fire-fighting of build issues and being one of the few people to be
+doing code reviews. At the end of 2025, Alpha decided that working from the other
+side of the world was untenable and left the company. As a result, I got a new
+manager which I will name Charles in  this blog post. Charles was interesting
+and a sister manager to Alpha. They joined the organization about 6 months after
+I joined the company. 
+
+While working at a large company like Microsoft, everything that you work on 
+turns into something that you get looped into
+for maintenance work. This leads to the stacking of responsibilities and as you
+continue to stay at the company you will start to get crushed by the workload
+if you do not have a manager that properly handles hand offs for you. 
+
+This was a crucial part of why I left the company. Piling responsibilities along 
+with the pay not keeping up, I was seeing the writing on the wall for
+me from the start of 2026. 
+
+
+
+
